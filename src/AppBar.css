@@ -1,0 +1,42 @@
+.appbar{
+    background-color: #4287f5;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 2;
+    border-radius: 2px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    align-items: center;
+}
+
+
+.option__button{
+    margin: auto;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Mono';
+    white-space: nowrap;
+    background-color: #4287f5;
+    border: none;
+    outline: none;
+    pointer-events: auto;
+}
+
+.option__button:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1700px) and (min-width: 100px){
+    .option__button{
+        font-size: 12px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300&family=Sansita+Swashed:wght@300;400&display=swap');

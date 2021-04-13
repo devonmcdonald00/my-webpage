@@ -1,0 +1,70 @@
+.projectGallery{
+    background-color: #DBF1FF;
+    overflow: hidden;
+}
+
+
+.projectGallery__Title{
+    font-size: 30px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'Inter';
+    max-width: 90%;
+    text-align: center;
+}
+
+.projectGallery__Img{
+    height: 380px;
+    width: 380px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.projectGallery__Link{
+    font-size: 17px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-weight: 200;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+
+.projectGallery__TechnologiesUsed{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.projectGallery__Technologies{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    max-width: 100px;
+}
+
+
+.projectGallery__TechIcon > img{
+    height: 50px;
+    width: 50px;
+}
+
+.projectGallery__Description{
+    font-size: 18px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-weight: 300;
+    text-align: center;
+    width: 90%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');

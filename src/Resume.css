@@ -1,0 +1,52 @@
+.resume__Page{
+    background-color: #DBF1FF;
+}
+
+.resume{
+    margin: auto;
+    margin-top: 60px;
+    height: 1500px;
+    width: 1000px;
+    border: none;
+    border-top: 1px solid lightgray;
+}
+
+.resume__Page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume__DownloadLink{
+    padding-left: 30px;
+}
+
+.resume__DownloadButton{
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color: #4287f5;
+    border: 1px solid lightgray;
+    color: white;
+    font-family: 'Roboto Mono'
+}
+
+.resume__DownloadButton:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.resume__Header{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inter'
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300&family=Sansita+Swashed:wght@300;400&display=swap');

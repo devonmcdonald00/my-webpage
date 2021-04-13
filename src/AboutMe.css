@@ -1,0 +1,66 @@
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: 'center';
+    background-color: aliceblue;
+}
+
+.aboutMe_Info{
+    flex: 1;
+    min-height: 140px;
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: 'space-between';
+    z-index: 1;
+}
+
+.info_Text{
+    margin: auto;
+    flex: 0.8;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Inter';
+    color: black;
+    text-align: center;
+    opacity: .8;
+}
+
+.avatar{
+    margin: auto;
+    min-width: 120px;
+    min-height: 120px;
+    border: 6px solid lightgray;
+    background-color: white;
+    object-fit: cover;
+}
+
+.avatar > img{
+    height: 90px;
+    object-fit: contain;
+}
+
+.aboutMe_Info:nth-child(even) {
+    background-color: #DBF1FF;
+}
+
+@media screen and (max-width:1700px) and (min-width: 100px){
+    .aboutMe_Info{
+        min-height: 100px;
+    }
+    .info_Text{
+        font-size: 17px;
+    }
+    .avatar{
+        min-width: 100px;
+        min-height: 100px;
+    }
+    .avatar > img{
+        height: 70px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');

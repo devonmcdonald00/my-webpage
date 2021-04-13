@@ -1,0 +1,43 @@
+.contact-info{
+    background-color: #DBF1FF;
+    overflow: hidden;
+    min-height: 100% !important;
+    height: 100% !important;
+    margin: 0;
+    background-size: cover;
+}
+
+.email-button{
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color: #4287f5;
+    border: 1px solid lightgray;
+    color: white;
+    font-family: 'Roboto Mono';
+    cursor: pointer;
+}
+
+.message {
+    color: white;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    height: 30px;
+}
+
+.success {
+    background-color: #32CD32;
+}
+
+.error {
+    background-color: #d31c12;
+}
