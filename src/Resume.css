@@ -5,7 +5,7 @@
 .resume{
     margin: auto;
     margin-top: 60px;
-    height: 1500px;
+    height: 1100px;
     width: 1000px;
     border: none;
     border-top: 1px solid lightgray;
@@ -47,6 +47,23 @@
     font-size: 30px;
     font-family: 'Inter'
 }
+
+@media only screen and (max-width: 1050px) {
+    .resume {
+       width: 620px;
+       height: 800px;
+    }
+ }
+
+ @media only screen and (max-width: 650px) {
+    .resume {
+       width: 400px;
+       height: 600px;
+    }
+    .resume__DownloadButton {
+        margin-top: 70px;
+    }
+ }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300&family=Sansita+Swashed:wght@300;400&display=swap');
